@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AllGreen.Lib" Version="1.0.1" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Wox.EasyHelper" Version="1.0.6" />
+    <PackageReference Include="Wox.EasyHelper.Test.Mock" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wox.BaseConverter.Mock\Wox.BaseConverter.Mock.csproj" />
+    <ProjectReference Include="..\Wox.BaseConverter\Wox.BaseConverter.csproj" />
+  </ItemGroup>
+
+</Project>

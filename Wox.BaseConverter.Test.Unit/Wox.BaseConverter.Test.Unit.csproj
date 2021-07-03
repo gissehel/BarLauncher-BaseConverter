@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wox.BaseConverter.Mock\Wox.BaseConverter.Mock.csproj" />
+    <ProjectReference Include="..\Wox.BaseConverter\Wox.BaseConverter.csproj" />
+  </ItemGroup>
+
+</Project>
