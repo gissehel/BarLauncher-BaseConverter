@@ -4,7 +4,7 @@
   "Name": "Base Converter",
   "Description": "Convert values from one base to another (for example decimal to hexadecimal, etc.)",
   "Author": "gissehel",
-  "Version": "1.0.1",
+  "Version": "1.0.3",
   "Language": "csharp",
   "Website": "https://github.com/gissehel/Wox-BaseConvert",
   "IcoPath": "Wox.BaseConverter-64.png",
