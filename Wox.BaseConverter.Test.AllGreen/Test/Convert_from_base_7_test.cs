@@ -86,6 +86,21 @@ namespace Wox.BaseConverter.Test.AllGreen.Test
             .Check("conv 7->3 15 : 110", "[15] expressed in base 7 correspond to [110] in base 3")
             .EndUsing()
 
+            .UsingList<Text_copied_to_clipboard_fixture>()
+            .With<Text_copied_to_clipboard_fixture.Result>(f => f.Text)
+            .EndUsing()
+
+            .Using<Wox_bar_fixture>()
+            .DoAccept(f => f.Wox_is_displayed())
+            .DoAction(f => f.Select_line(1))
+            .DoReject(f => f.Wox_is_displayed())
+            .EndUsing()
+
+            .UsingList<Text_copied_to_clipboard_fixture>()
+            .With<Text_copied_to_clipboard_fixture.Result>(f => f.Text)
+            .Check("110")
+            .EndUsing()
+
             .EndTest();
     }
 }

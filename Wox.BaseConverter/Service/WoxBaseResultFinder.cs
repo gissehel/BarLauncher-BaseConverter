@@ -230,7 +230,12 @@ namespace Wox.BaseConverter.Service
                         string result = BaseConvertService.Convert(value, base1Num, base2Num);
                         return new List<WoxResult>()
                         {
-                            GetNoActionResult("conv {0}->{1} {2} : {3}".FormatWith(base1, base2, value, result), "[{2}] expressed in {0} correspond to [{3}] in {1}".FormatWith(GetBaseName(base1), GetBaseName(base2), value, result))
+                            GetActionResult
+                            (
+                                "conv {0}->{1} {2} : {3}".FormatWith(base1, base2, value, result),
+                                "[{2}] expressed in {0} correspond to [{3}] in {1}".FormatWith(GetBaseName(base1), GetBaseName(base2), value, result),
+                                ()=>SystemService.CopyTextToClipboard(result)
+                            )
                         };
                     }
                     catch (Exception e)
