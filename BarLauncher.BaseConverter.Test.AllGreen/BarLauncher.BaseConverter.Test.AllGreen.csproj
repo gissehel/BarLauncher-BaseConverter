@@ -1,20 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\Common.targets" />
 
-	<PropertyGroup>
-		<TargetFramework>net48</TargetFramework>
-	</PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+    </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="AllGreen.Lib" Version="1.0.1" />
-		<PackageReference Include="NUnit" Version="3.13.2" />
-		<PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
-		<PackageReference Include="BarLauncher.EasyHelper" Version="2.0.1" />
-		<PackageReference Include="BarLauncher.EasyHelper.Test.Mock" Version="2.0.1" />
-	</ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AllGreen.Lib" Version="1.0.1" />
+        <PackageReference Include="NUnit" Version="3.13.2" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+        <PackageReference Include="BarLauncher.EasyHelper" Version="2.0.3" />
+        <PackageReference Include="BarLauncher.EasyHelper.Test.Mock" Version="2.0.3" />
+    </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\BarLauncher.BaseConverter.Lib\BarLauncher.BaseConverter.Lib.csproj" />
-		<ProjectReference Include="..\BarLauncher.BaseConverter.Test.Mock\BarLauncher.BaseConverter.Test.Mock.csproj" />
-	</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BarLauncher.BaseConverter.Lib\BarLauncher.BaseConverter.Lib.csproj" />
+        <ProjectReference Include="..\BarLauncher.BaseConverter.Test.Mock\BarLauncher.BaseConverter.Test.Mock.csproj" />
+    </ItemGroup>
 
 </Project>

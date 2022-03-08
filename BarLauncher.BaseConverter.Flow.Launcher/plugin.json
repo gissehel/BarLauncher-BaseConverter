@@ -1,5 +1,5 @@
 ﻿{
-  "ID": "15465409706180000000000000000001",
+  "ID": "6361A46C-D08C-49AB-AAA4-D19E1F2ABA0D",
   "ActionKeyword": "base",
   "Name": "Base Converter",
   "Description": "Convert values from one base to another (for example decimal to hexadecimal, etc.)",
@@ -8,5 +8,5 @@
   "Language": "csharp",
   "Website": "https://github.com/gissehel/BarLauncher-BaseConvert",
   "IcoPath": "BarLauncher-BaseConverter-64.png",
-  "ExecuteFileName": "BarLauncher.BaseConverter.Wox.dll"
+  "ExecuteFileName": "BarLauncher.BaseConverter.Flow.Launcher.dll"
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarLauncher.BaseConverter.Lib", "BarLauncher.BaseConverter.Lib\BarLauncher.BaseConverter.Lib.csproj", "{87A3B139-067E-480E-8C2D-C70267E8CB50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.BaseConverter.Lib", "BarLauncher.BaseConverter.Lib\BarLauncher.BaseConverter.Lib.csproj", "{87A3B139-067E-480E-8C2D-C70267E8CB50}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.BaseConverter.Wox", "BarLauncher.BaseConverter.Wox\BarLauncher.BaseConverter.Wox.csproj", "{FE745F33-CFC8-4495-BB69-B6A53745CFE2}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.BaseConverter.Test.AllGreen", "BarLauncher.BaseConverter.Test.AllGreen\BarLauncher.BaseConverter.Test.AllGreen.csproj", "{D71A7247-1C3F-4C59-AB2E-85F602201321}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.BaseConverter.Test.NUnit", "BarLauncher.BaseConverter.Test.NUnit\BarLauncher.BaseConverter.Test.NUnit.csproj", "{7BABDE97-D730-43C6-8D67-F743928C1B4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.BaseConverter.Flow.Launcher", "BarLauncher.BaseConverter.Flow.Launcher\BarLauncher.BaseConverter.Flow.Launcher.csproj", "{C5C2AEF3-6BFC-4F95-BB3A-86821C3F885E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7BABDE97-D730-43C6-8D67-F743928C1B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BABDE97-D730-43C6-8D67-F743928C1B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BABDE97-D730-43C6-8D67-F743928C1B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C2AEF3-6BFC-4F95-BB3A-86821C3F885E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C2AEF3-6BFC-4F95-BB3A-86821C3F885E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C2AEF3-6BFC-4F95-BB3A-86821C3F885E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C2AEF3-6BFC-4F95-BB3A-86821C3F885E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
