@@ -6,7 +6,7 @@
   "Author": "gissehel",
   "Version": "2.0.5",
   "Language": "csharp",
-  "Website": "https://github.com/gissehel/BarLauncher-BaseConvert",
+  "Website": "https://github.com/gissehel/BarLauncher-BaseConverter",
   "IcoPath": "BarLauncher-BaseConverter-64.png",
   "ExecuteFileName": "BarLauncher.BaseConverter.Flow.Launcher.dll"
 }
