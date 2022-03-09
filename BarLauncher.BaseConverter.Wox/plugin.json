@@ -4,7 +4,7 @@
   "Name": "Base Converter",
   "Description": "Convert values from one base to another (for example decimal to hexadecimal, etc.)",
   "Author": "gissehel",
-  "Version": "2.0.2",
+  "Version": "2.0.3",
   "Language": "csharp",
   "Website": "https://github.com/gissehel/BarLauncher-BaseConvert",
   "IcoPath": "BarLauncher-BaseConverter-64.png",
