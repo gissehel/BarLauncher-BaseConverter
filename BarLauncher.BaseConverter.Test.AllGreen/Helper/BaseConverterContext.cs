@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BarLauncher.EasyHelper;
+using AllGreen.Lib.Engine.Service;
+using AllGreen.Lib.Core.Engine.Service;
 
 namespace BarLauncher.BaseConverter.Test.AllGreen.Helper
 {
@@ -28,11 +30,8 @@ namespace BarLauncher.BaseConverter.Test.AllGreen.Helper
         public void OnTestStop()
         {
             var testScriptResult = TestScriptResult as TestScriptResult<BaseConverterContext>;
-            var path = Path.Combine(ApplicationStarter.TestPath, "{0}.agout".FormatWith(testScriptResult.TestScript.Name));
-            using (var writer = new StreamWriter(path, false, new UTF8Encoding(false)))
-            {
-                writer.Write(testScriptResult.GetPipedName(options: PipedNameOptions.Canonical));
-            }
+            (new JsonOutputService()).Output(testScriptResult, ApplicationStarter.TestPath, testScriptResult.TestScript.Name);
+            (new TextOutputService()).Output(testScriptResult, ApplicationStarter.TestPath, testScriptResult.TestScript.Name);
         }
     }
 }

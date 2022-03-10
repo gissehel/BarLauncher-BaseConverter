@@ -16,7 +16,9 @@ namespace BarLauncher.BaseConverter.Test.AllGreen.Helper
     public class ApplicationStarter
     {
         private string TestName { get; set; }
-        public string TestPath => GetApplicationDataPath();
+
+        private string testPath = null;
+        public string TestPath => testPath ?? (testPath = GetApplicationDataPath());
 
         public BarLauncherContextServiceMock BarLauncherContextService { get; set; }
 
